@@ -1,0 +1,9 @@
+.photo-grid__item {
+  width: 100%;
+}
+
+@media (max-width:600px) {
+  .photo-grid__item {
+    margin-bottom: 12px;
+  }
+} 

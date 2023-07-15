@@ -1,0 +1,23 @@
+.cover__overlay-link {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: auto;
+  padding-top: calc(((100%/1.6) - 250px)/2);
+  padding-bottom: calc(((100%/1.6) - 250px)/2);
+  background-color:rgba(42, 44, 47, .3);
+}
+
+.cover__overlay-link:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (max-width: 767px){
+  .cover__overlay-link {
+    padding-top: calc(((100%/1.6) - 134px)/2);
+    padding-bottom: calc(((100%/1.6) - 134px)/2);
+  }
+}

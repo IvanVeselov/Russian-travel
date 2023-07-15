@@ -1,0 +1,15 @@
+.place__link {
+  color: inherit;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width:630px) {
+  .place__link {
+    margin-bottom: 32px;
+  }
+}
