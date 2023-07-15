@@ -8,7 +8,7 @@
   margin: auto;
   padding-top: calc(((100%/1.6) - 250px)/2);
   padding-bottom: calc(((100%/1.6) - 250px)/2);
-  background-color:rgba(42, 44, 47, .3);
+  background-color: rgba(42, 44, 47, .3);
 }
 
 .cover__overlay-link:hover {

@@ -29,7 +29,7 @@
 
 @media (max-width:320px) {
   .photo-grid__items {
-    display:block;
+    display: block;
     width: 100%;
   }
 }
