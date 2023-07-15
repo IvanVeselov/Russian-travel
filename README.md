@@ -10,4 +10,4 @@ flex-box
 GRID Layout
 Адаптивная вёрстка
 
-Cсылка на проект: https://github.com/IvanVeselov/russian-travel
+Cсылка на проект: https://ivanveselov.github.io/russian-travel/
