@@ -1,6 +1,6 @@
 .footer {
   box-sizing: border-box;
-  padding: 92px 48px 24px;
+  padding: 92px 0px 24px;
   color: #ffffff;
   max-width: 1184px;
   display: flex;
@@ -9,11 +9,18 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width:1100px) {
+  .footer {
+    padding: 88px 48px 24px;
+  }
+}
+
 @media screen and (max-width:1000px) {
   .footer {
     padding: 88px 24px 24px;
   }
 }
+
 @media screen and (max-width:760px) {
   .footer {
     padding: 64px 16px 24px;

@@ -31,5 +31,6 @@
   .photo-grid__items {
     display: block;
     width: 100%;
+    gap: 12px;
   }
 }

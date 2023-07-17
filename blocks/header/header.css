@@ -1,13 +1,19 @@
 .header {
   box-sizing: border-box;
   width: 100%;
-  padding: 28px 48px 56px;
+  padding: 28px 0 56px;
   max-width: 1184px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+@media screen and (max-width:1100px) {
+  .header {
+    padding: 28px 48px 48px;
+  }
 }
 
 @media screen and (max-width:768px) {
